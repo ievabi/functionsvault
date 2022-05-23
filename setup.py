@@ -13,5 +13,5 @@ setup(name='functionsvault',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/functionsvault-run'],
+      scripts=['scripts/functionsvault-run', 'scripts/functionsvault-scraping'],
       zip_safe=False)
